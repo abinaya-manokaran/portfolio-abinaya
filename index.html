@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Abinaya | Software Engineer Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+/* ================= BASE ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: system-ui;
+  background: #0b0f19;
+  color: #e5e7eb;
+}
+
+/* ================= NAV ================= */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(11,15,25,0.85);
+  backdrop-filter: blur(10px);
+}
+
+nav h2 {
+  color: #60a5fa;
+  font-size: 18px;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 13px;
+}
+
+nav a:hover { color: #60a5fa; }
+
+/* ================= HERO ================= */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 12%;
+}
+
+.hero h1 {
+  font-size: 52px;
+}
+
+.hero span { color: #60a5fa; }
+
+.hero p {
+  margin-top: 10px;
+  color: #9ca3af;
+  max-width: 650px;
+  font-size: 16px;
+}
+
+.btn {
+  margin-top: 18px;
+  padding: 10px 14px;
+  background: #60a5fa;
+  color: #0b0f19;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.btn:hover { background: #3b82f6; }
+
+/* ================= SECTION ================= */
+section {
+  padding: 55px 12%;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #93c5fd;
+}
+
+/* ================= CARD ================= */
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  border-color: #60a5fa;
+  transform: translateY(-3px);
+}
+
+/* ================= SKILLS ================= */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skills span {
+  font-size: 12px;
+  padding: 5px 8px;
+  background: #1f2937;
+  border-radius: 6px;
+  border: 1px solid #374151;
+}
+
+/* ================= PROJECT TAG ================= */
+.tag {
+  font-size: 10px;
+  padding: 3px 6px;
+  background: #1e3a8a;
+  color: #93c5fd;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+/* ================= ICONS ================= */
+.icons a {
+  font-size: 18px;
+  margin-right: 12px;
+  color: #cbd5e1;
+}
+
+.icons a:hover { color: #60a5fa; }
+
+/* ================= FOOTER ================= */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <h2>Abinaya.dev</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Abinaya</h1>
+  <p>
+    Software Engineer | Web Developer | AI & Machine Learning Engineer
+  </p>
+
+  <p>
+    Specializing in building scalable cloud applications, AI-powered systems, and modern web platforms using Google Cloud, Vertex AI, and full-stack technologies.
+  </p>
+
+  <a class="btn" href="Abinaya _ Software Engineer Resume.pdf">Download Resume</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>Professional Summary</h2>
+<div class="card">
+Software Engineer with expertise in Full Stack Development, Artificial Intelligence, Machine Learning, and Cloud Computing.
+Focused on building production-ready systems using Google Cloud Platform, AI APIs, and modern web frameworks.
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="card skills">
+<span>Software Engineering</span>
+<span>Web Development</span>
+<span>AI / ML</span>
+<span>Python</span>
+<span>Java</span>
+<span>JavaScript</span>
+<span>React</span>
+<span>Node.js</span>
+<span>Google Cloud</span>
+<span>Vertex AI</span>
+<span>BigQuery</span>
+<span>Cloud Run</span>
+<span>SQL</span>
+<span>Github</span>
+<span>Git</span>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="card">
+<div class="tag">AI + Machine Learning</div>
+<h3>AI Self-Learning System</h3>
+<p>Designed and implemented an AI-driven learning system using Python, BigQuery, and Vertex AI to process data and generate intelligent insights on Google Cloud Platform.</p>
+</div>
+
+<div class="card">
+<div class="tag">AI + Productivity</div>
+<h3>ProjectPilot AI</h3>
+<p>Developed an AI-based project management assistant using Python and ADK framework to automate task tracking and project organization workflows.</p>
+</div>
+
+<div class="card">
+<div class="tag">Web Development</div>
+<h3>SmartVenue</h3>
+<p>Built a responsive web application using HTML, CSS, and JavaScript for interactive venue exploration and management system.</p>
+</div>
+
+<div class="card">
+<div class="tag">Cloud Deployment</div>
+<h3>Election Assistant</h3>
+<p>Developed and deployed an educational assistant using Google Cloud Run to explain election processes in an interactive web interface.</p>
+</div>
+
+<div class="card">
+<div class="tag">Hackathon Project</div>
+<h3>FIFA Coding Quiz Game</h3>
+<p>Created an interactive gamified coding quiz using HTML5, CSS3, JavaScript, Web Speech API, Audio API, and Gemini Canvas for AI-assisted UI generation.</p>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+
+<div class="card">
+<p>Email: abinaya944477@gmail.com</p>
+<p>Phone: +91 9342900838</p>
+
+<div class="icons">
+<a href="mailto:abinaya944477@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+<a href="https://github.com/abinaya-manokaran"><i class="fa-brands fa-github"></i></a>
+<a href="https://www.linkedin.com/in/abinaya-manokaran"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Abinaya | Software Engineer • Web • AI/ML • Cloud Developer
+</footer>
+
+</body>
+</html>
